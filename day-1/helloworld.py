@@ -1,3 +1,4 @@
+import math
 """ Day 1 of 30 Days of Python
  Exercises - Day 1
  Exercise: Level 2"""
@@ -62,5 +63,8 @@ example_dict = {'integer': 12,
                 'boolean': True}
 print(f"{example_dict}, Dict (dict)")
 print(type(example_dict))
+print('')
 
-
+# Find the Euclidian distance b/w (2,3) and (10,8)
+euclidean = ((2 - 10) ** 2) + ((3 - 8) ** 2)
+print(math.sqrt(euclidean))
